@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-observe-repo",
+  "version": "1.0.0",
+  "description": "Test repository to see if GitHub Actions can trigger from other repository actions",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'I got triggered!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dflynn15/github-actions-observe-repo.git"
+  },
+  "author": "Daniel Flynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dflynn15/github-actions-observe-repo/issues"
+  },
+  "homepage": "https://github.com/dflynn15/github-actions-observe-repo#readme"
+}
